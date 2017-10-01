@@ -40,7 +40,20 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
+gem 'devise'
+gem 'materialize-sass'
+gem 'material_icons'
+gem 'pg_search'
+gem 'carrierwave'
+
+#group :test do
+#  gem "factory_girl_rails"
+#  gem "ffaker"
+#end
+
+
 group :development do
+  gem 'rspec-rails', '~> 3.5'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.0.5'
