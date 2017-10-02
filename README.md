@@ -2,7 +2,7 @@
 
 This app has the purpose of being a twitter clone, reproducing new features and serving as a study for the [OneBitCode](http://onebitcode.com/) BootCamp
 
-## Our technilogies
+## Our technologies
 
 - Rails
 - [Docker](https://docs.docker.com/)
@@ -57,3 +57,30 @@ At first, you need to setup some configurations after clonning the repo to your 
  4. docker-compose run --rm website bundle exec rails db:migrate
  5. docker-compose up
  ```
+## Contributing to this project
+
+**1. Fork the project**
+
+**2. Clone the fork to your machine**
+
+```cmd
+git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git
+```
+
+**3. Set the remote upstream from original repository**
+
+```cmd
+
+cd into/cloned/fork-repo
+git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+git fetch upstream
+```
+**4. Submitting Pull Requests:**
+
+* work on your local branch and submit it to your fork master.
+
+* Create a PR from your branch to the original repository.
+
+**5. Syncing a fork**
+
+[Follow the steps in this link](https://help.github.com/articles/syncing-a-fork/)
