@@ -1,3 +1,5 @@
+![rails](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)
+===========================
 # Weekend Code - Twitter Clone - Team One
 
 This app has the purpose of being a twitter clone, reproducing new features and serving as a study for the [OneBitCode](http://onebitcode.com/) BootCamp
