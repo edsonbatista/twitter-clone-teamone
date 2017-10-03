@@ -8,10 +8,10 @@ class ApplicationController < ActionController::Base
   end
 
   def after_sign_in_path_for(resource)
-    '/users'# redirecionar para a timeline com os posts quando pronta
+    '/posts'# redirecionar para a timeline com os posts quando pronta
   end
 
   # def after_sign_up_path_for(resource)
-  #   redirecionar para user profile edit       
+  #   redirecionar para user profile edit
   # end
 end
