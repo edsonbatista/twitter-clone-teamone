@@ -1,4 +1,7 @@
 ![rails](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)
+![rails](https://img.shields.io/badge/Rails-5.0.1-red.svg)
+![ruby](https://img.shields.io/badge/Ruby-2.4.0-red.svg)
+
 ===========================
 # Weekend Code - Twitter Clone - Team One
 
