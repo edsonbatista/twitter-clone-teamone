@@ -17,7 +17,7 @@ This app has the purpose of being a twitter clone, reproducing new features and 
 
 ## Home Screen
 
- (coming soon...)
+ (coming soon...) --
 
 ## Contributing to this project
 
