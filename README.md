@@ -9,7 +9,7 @@ This app has the purpose of being a twitter clone, reproducing new features and 
 
 ## Our technologies
 
-- Rails
+- [Rails](http://rubyonrails.org/)
 - [Docker](https://docs.docker.com/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [Materialize](http://materializecss.com/)
@@ -34,7 +34,7 @@ This app has the purpose of being a twitter clone, reproducing new features and 
  ```cmd
 
  cd into/cloned/fork-repo
- git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+ git remote add upstream git@github.com:edsonbatista/twitter-clone-teamone.git
  git fetch upstream
  ```
  **4. Submitting Pull Requests:**
