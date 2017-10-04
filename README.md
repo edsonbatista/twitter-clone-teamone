@@ -89,5 +89,6 @@ At first, you need to setup some configurations after clonning the repo to your 
  2. docker-compose run --rm website bundle install
  3. docker-compose run --rm website bundle exec rails db:create
  4. docker-compose run --rm website bundle exec rails db:migrate
+ 5. docker-compose run --rm website bundle exec rails db:seeds
  5. docker-compose up
  ```
