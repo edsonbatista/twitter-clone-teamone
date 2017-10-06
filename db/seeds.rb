@@ -53,14 +53,23 @@ Post.where(content: "Vários freela pra fazer, bora madrugar #ruby #rails").firs
   post.user = rafa
 end
 
-Relationship.where(follower: jho, followed: leo).first_or_create!
+jho.active_relationships.create(followed_id: 1)
+jho.active_relationships.create(followed_id: 3)
 
-Relationship.where(follower: rafa, followed: leo).first_or_create!
+leo.active_relationships.create(followed_id: 2)
+leo.active_relationships.create(followed_id: 3)
 
-Relationship.where(follower: leo, followed: rafa).first_or_create!
+rafa.active_relationships.create(followed_id: 1)
+rafa.active_relationships.create(followed_id: 2)
 
-Relationship.where(follower: jho, followed: rafa).first_or_create!
-
-Relationship.where(follower: leo, followed: jho).first_or_create!
-
-Relationship.where(follower: rafa, followed: jho).first_or_create!
+# Relationship.where(follower: jho, following: leo).first_or_create!
+#
+# Relationship.where(follower: rafa, following: leo).first_or_create!
+#
+# Relationship.where(follower: leo, following: rafa).first_or_create!
+#
+# Relationship.where(follower: jho, following: rafa).first_or_create!
+#
+# Relationship.where(follower: leo, following: jho).first_or_create!
+#
+# Relationship.where(follower: rafa, following: jho).first_or_create!
