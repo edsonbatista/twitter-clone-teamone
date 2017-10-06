@@ -1,6 +1,7 @@
 ![rails](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)
 ![rails](https://img.shields.io/badge/Rails-5.0.1-red.svg)
 ![ruby](https://img.shields.io/badge/Ruby-2.4.0-red.svg)
+[ ![Codeship Status for edsonbatista/twitter-clone-teamone](https://app.codeship.com/projects/31f7cb40-8b35-0135-6f8f-7621a36fc064/status?branch=master)](https://app.codeship.com/projects/249257)
 
 
 # Weekend Code - Twitter Clone - Team One
@@ -17,7 +18,8 @@ This app has the purpose of being a twitter clone, reproducing new features and 
 
 ## Home Screen
 
- (coming soon...)
+ (coming soon....)
+
 
 ## Contributing to this project
 
