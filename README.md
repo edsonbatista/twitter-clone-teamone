@@ -1,11 +1,12 @@
 ![rails](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)
 ![rails](https://img.shields.io/badge/Rails-5.0.1-red.svg)
 ![ruby](https://img.shields.io/badge/Ruby-2.4.0-red.svg)
+[ ![Codeship Status for edsonbatista/twitter-clone-teamone](https://app.codeship.com/projects/31f7cb40-8b35-0135-6f8f-7621a36fc064/status?branch=master)](https://app.codeship.com/projects/249257)
 
 
 # Weekend Code - Twitter Clone - Team One
 
-This app has the purpose of being a twitter clone, reproducing new features and serving as a study for the [OneBitCode](http://onebitcode.com/) BootCamp
+This app has the purpose of being a twitter clone, reproducing new features and serving as a study for the [OneBitCode](http://onebitcode.com/) BootCamp.
 
 ## Our technologies
 
@@ -17,7 +18,8 @@ This app has the purpose of being a twitter clone, reproducing new features and 
 
 ## Home Screen
 
- (coming soon...)
+ (coming soon....)
+
 
 ## Contributing to this project
 
@@ -89,5 +91,6 @@ At first, you need to setup some configurations after clonning the repo to your 
  2. docker-compose run --rm website bundle install
  3. docker-compose run --rm website bundle exec rails db:create
  4. docker-compose run --rm website bundle exec rails db:migrate
+ 5. docker-compose run --rm website bundle exec rails db:seeds
  5. docker-compose up
  ```
