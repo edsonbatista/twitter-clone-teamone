@@ -10,30 +10,6 @@
   </head>
 
   <body>
-    <!-- Dropdown Structure -->
-    <ul id='dropdown1' class='dropdown-content'>
-      <li><a href="<%= '/users/current_user.id' %>"><i class="material-icons">account_circle</i>Perfil</a></li>
-      <li class="divider"></li>
-      <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
-      </ul>
-
-    <nav>
-      <div class="nav-wrapper" style="background-color: #2FC2EF;">
-        <a href="#!" class="brand-logo">Twitter app</a>
-        <div class="container">
-          <ul class="left hide-on-med-and-down">
-            <li><%= link_to "Página inicial", posts_path %></li>
-          </ul>
-          <ul class="right hide-on-med-and-down">
-            <li style="margin-top: 10px"><%= image_tag current_user.present? && current_user.photo? ? current_user.photo.url : "user-placeholder.png", size: "40x40", class: "circle responsive-img" %></li>
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Opções<i class="material-icons right">arrow_drop_down</i></a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="container">
-        <%= yield %>
-    </div>
+      <%= yield %>
   </body>
 </html>
