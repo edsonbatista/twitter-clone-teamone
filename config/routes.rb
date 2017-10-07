@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
   root to: 'home#index'
-  get '/users', to: 'users#index' # index deve ser removido quando existir controller de posts
-  get '/user/profile', to: 'users#show'
+  resources :users, only: [:index, :show]
   resources :posts
 end

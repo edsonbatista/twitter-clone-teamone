@@ -7,7 +7,10 @@
     </div>
     <div class="card-action" style="pading-bottom: 0">
       <div class="row"style="margin-bottom: 0; margin-top: 0">
-        <h5><strong><%= user.name %></strong></h5>
+        <div >
+          <h5><strong><%= user.name %></strong></h5>
+        </div>
+
       </div>
       <div class="row" style="margin-top: -10px">
         <strong style="color: #757575 "><%= user.username %></strong>
@@ -29,5 +32,11 @@
     </div>
 
   </div>
+</div>
+<div class="row right">
+  <div style="margin-right: 10px">
+    <%= link_to "EDITAR PERFIL", edit_user_registration_path, class: "waves-effect waves-light btn" if user_signed_in? %>
+  </div>
+
 </div>
 </div>

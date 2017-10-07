@@ -1,0 +1,15 @@
+<div class="card grey lighten-4">
+  <div class="card-content">
+    <%= form_for Post.new do |f| %>
+      <div class="field">
+        <%= f.text_area :content, autofocus: true %>
+      </div>
+
+      <div class="actions right">
+        <button class="btn waves-effect waves-light" type="submit" name="action">Postar
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+    <% end %>
+  </div>
+</div>

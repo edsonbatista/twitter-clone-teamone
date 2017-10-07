@@ -1,0 +1,13 @@
+<div class="card horizontal">
+  <div class="card-image" style="width: 50px; height: 50px">
+    <%= image_tag post.user.photo? ? post.user.image : "user-placeholder.png", size: "50x50", class: "circle responsive-img" %>
+  </div>
+  <div class="card-stacked">
+    <div class="card-content">
+      <p><%= post.content %></p>
+    </div>
+    <div class="card-action">
+      <%= link_to post.user.name, users_path(post.user) %>
+    </div>
+  </div>
+</div>
