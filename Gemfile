@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'devise'
+gem 'materialize-sass'
+gem 'material_icons'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
@@ -34,10 +37,9 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
-group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platform: :mri
+group :test do
+  gem "factory_girl_rails"
+  gem "ffaker"
 end
 
 gem 'devise'
@@ -46,14 +48,14 @@ gem 'material_icons'
 gem 'pg_search'
 gem 'carrierwave'
 
-#group :test do
-#  gem "factory_girl_rails"
-#  gem "ffaker"
-#end
 
+group :development, :test do
+  #gem 'rspec-rails', '~> 3.5'
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'byebug', platform: :mri
+end
 
 group :development do
-  gem 'rspec-rails', '~> 3.5'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.0.5'

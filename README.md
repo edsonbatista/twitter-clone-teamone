@@ -18,7 +18,9 @@ This app has the purpose of being a twitter clone, reproducing new features and 
 
 ## Home Screen
 
- (coming soon....)
+ ## [Click and open the project](http://twitter-clone-teamone.herokuapp.com/)
+
+ ![twitter-clone-teamone](https://raw.githubusercontent.com/edsonbatista/twitter-clone-teamone/master/app/assets/images/screenshot.png)
 
 
 ## Contributing to this project
