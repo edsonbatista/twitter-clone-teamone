@@ -1,11 +1,12 @@
 <%= render "shared/navbar" %>
 
-
-<div class="row">
-  <%= render "shared/profile_card", user: @user %>
-  <div class="col m8">
-    <% @user.posts.each do |post| %>
-      <%= render "shared/post", post: post %>
-    <% end %>
+<div class="container">
+  <div class="row">
+    <%= render "shared/profile_card", user: @user %>
+    <div class="col m8">
+      <% @user.posts.each do |post| %>
+        <%= render "shared/post", post: post %>
+      <% end %>
+    </div>
   </div>
 </div>
