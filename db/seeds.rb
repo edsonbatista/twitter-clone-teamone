@@ -61,15 +61,3 @@ leo.active_relationships.create(followed_id: 3)
 
 rafa.active_relationships.create(followed_id: 1)
 rafa.active_relationships.create(followed_id: 2)
-
-# Relationship.where(follower: jho, following: leo).first_or_create!
-#
-# Relationship.where(follower: rafa, following: leo).first_or_create!
-#
-# Relationship.where(follower: leo, following: rafa).first_or_create!
-#
-# Relationship.where(follower: jho, following: rafa).first_or_create!
-#
-# Relationship.where(follower: leo, following: jho).first_or_create!
-#
-# Relationship.where(follower: rafa, following: jho).first_or_create!
