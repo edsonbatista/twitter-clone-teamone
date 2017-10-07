@@ -11,7 +11,7 @@
             <p><%= post.content %></p>
           </div>
           <div class="card-action">
-            <%= link_to post.user.name, users_path(post.user) %>
+            <strong><a href="/users/<%= post.user.id %>" style="color: #2FC2EF"><%= post.user.name %></a></strong>
           </div>
         </div>
       </div>
