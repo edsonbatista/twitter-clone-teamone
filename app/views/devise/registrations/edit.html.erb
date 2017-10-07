@@ -2,6 +2,11 @@
   <%= devise_error_messages! %>
 
   <div class="field">
+    <%= f.label :photo %>
+    <%= f.file_field :photo %>
+  </div>
+
+  <div class="field">
     <%= f.label :name %>
     <%= f.text_field :name %>
   </div>
@@ -18,7 +23,7 @@
 
   <div class="field">
     <%= f.label :city %>
-    <%= f.email_field :city %>
+    <%= f.text_field :city %>
   </div>
 
   <div class="field">
@@ -41,6 +46,8 @@
   </div>
 
   <div class="actions">
-    <%= f.submit "Update", input_html: "" %>
+    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+      <i class="material-icons right">send</i>
+    </button>
   </div>
 <% end %>
